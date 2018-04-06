@@ -25,16 +25,68 @@
 
     <GridLayout
         android:id="@+id/meeting_rooms_grid_layout"
-        android:layout_width="760dp"
-        android:layout_height="260dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginBottom="143dp"
         android:layout_marginEnd="100dp"
         android:layout_marginStart="100dp"
         android:layout_marginTop="197dp"
+        android:columnCount="5"
+        android:padding="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/mayaButton"
+            android:layout_margin="15dp"
+            android:text="Maya"
+            android:textAllCaps="false"
+            android:textColor="#5275f4"
+            android:textSize="20sp"
+            android:background="@drawable/btn_meeting_room"
+            />
+
+        <Button
+            android:id="@+id/wallStreetButton"
+            android:layout_margin="15dp"
+            android:text="Wall Street"
+            android:textAllCaps="false"
+            android:textColor="#5275f4"
+            android:textSize="20sp"
+            android:background="@drawable/btn_meeting_room"
+            />
+
+        <Button
+            android:id="@+id/ubuntuButton"
+            android:layout_margin="15dp"
+            android:text="Ubuntu"
+            android:textAllCaps="false"
+            android:textColor="#5275f4"
+            android:textSize="20sp"
+            android:background="@drawable/btn_meeting_room"
+            />
+
+        <Button
+            android:id="@+id/asoButton"
+            android:layout_margin="15dp"
+            android:text="Aso"
+            android:textAllCaps="false"
+            android:textColor="#5275f4"
+            android:textSize="20sp"
+            android:background="@drawable/btn_meeting_room"
+            />
+
+        <Button
+            android:id="@+id/charleyButton"
+            android:layout_margin="15dp"
+            android:text="Charley"
+            android:textAllCaps="false"
+            android:textColor="#5275f4"
+            android:textSize="20sp"
+            android:background="@drawable/btn_meeting_room"
+            />
 
     </GridLayout>
 
