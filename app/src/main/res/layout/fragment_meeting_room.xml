@@ -5,7 +5,6 @@
     android:layout_height="match_parent"
     tools:context="com.andela.mrm.MeetingRoomFragment">
 
-
     <TextView
         android:id="@+id/select_meeting_room_text"
         android:layout_width="wrap_content"
@@ -24,73 +23,23 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.192" />
 
-    <GridLayout
-        android:id="@+id/meeting_rooms_grid_layout"
+    <GridView
+        android:id="@+id/meeting_rooms_grid_view"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
+        android:paddingTop="50dp"
+        android:paddingStart="20dp"
         android:layout_marginBottom="143dp"
         android:layout_marginEnd="100dp"
         android:layout_marginStart="100dp"
         android:layout_marginTop="197dp"
-        android:columnCount="5"
-        android:paddingLeft="20dp"
-        android:paddingRight="20dp"
-        android:paddingBottom="10dp"
+        android:numColumns="5"
+        android:verticalSpacing="24dp"
+        android:horizontalSpacing="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-
-        <Button
-            android:id="@+id/mayaButton"
-            android:layout_margin="15dp"
-            android:text="Maya"
-            android:textAllCaps="false"
-            android:textColor="#5275f4"
-            android:textSize="20sp"
-            android:background="@drawable/btn_meeting_room"
-            />
-
-        <Button
-            android:id="@+id/wallStreetButton"
-            android:layout_margin="15dp"
-            android:text="Wall Street"
-            android:textAllCaps="false"
-            android:textColor="#5275f4"
-            android:textSize="20sp"
-            android:background="@drawable/btn_meeting_room"
-            />
-
-        <Button
-            android:id="@+id/ubuntuButton"
-            android:layout_margin="15dp"
-            android:text="Ubuntu"
-            android:textAllCaps="false"
-            android:textColor="#5275f4"
-            android:textSize="20sp"
-            android:background="@drawable/btn_meeting_room"
-            />
-
-        <Button
-            android:id="@+id/asoButton"
-            android:layout_margin="15dp"
-            android:text="Aso"
-            android:textAllCaps="false"
-            android:textColor="#5275f4"
-            android:textSize="20sp"
-            android:background="@drawable/btn_meeting_room"
-            />
-
-        <Button
-            android:id="@+id/charleyButton"
-            android:layout_margin="15dp"
-            android:text="Charley"
-            android:textAllCaps="false"
-            android:textColor="#5275f4"
-            android:textSize="20sp"
-            android:background="@drawable/btn_meeting_room"
-            />
-
-    </GridLayout>
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
 
 </android.support.constraint.ConstraintLayout>
