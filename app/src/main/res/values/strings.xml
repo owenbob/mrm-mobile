@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">MRM</string>
+    <string name="button_description">google login button</string>
+    <string name="image_description">slider image</string>
 </resources>
